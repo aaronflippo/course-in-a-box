@@ -14,19 +14,19 @@ _Important! Before you can follow this lesson, you’ll need to have Visual stud
 Open up Visual Studio and click on “Create a new project” on the bottom right:
 
 
-![alt_text](images/image1.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image1.png "image_tooltip")
+
 
 
 We are going to work with a simple Console application, so choose that option when prompted.
 
 
-![alt_text](images/image2.png "image_tooltip")
+![alt]({{site.baseurl}}/imgimage2.png "image_tooltip")
 
 
 _❗Note: If you don’t see an option to add a console application, you’ll need to select the option to install more tools and features, and install this additional feature in Visual Studio: “.NET desktop development”. See below:_
 
-
-![alt_text](images/image3.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image3.png "image_tooltip")
 
 
 Once you’ve done that, go back to the “Create new project” dialog and select Console Application.
@@ -39,7 +39,7 @@ Give your project a name. Let’s go with “MyFirstApp”.
 Choose a location for your project that’s convenient - I recommend making a projects folder in your Documents folder using File Explorer (or Finder on a mac) , and selecting that for the Location.
 
 
-![alt_text](images/image4.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image4.png "image_tooltip")
 
 
 Then click Next.
@@ -54,7 +54,7 @@ Visual studio has a panel called Solution Explorer, and you should be able to se
 (If you don’t see the Solution Explorer, use the View->Solution Explorer option to bring it up)
 
 
-![alt_text](images/image5.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image5.png "image_tooltip")
 
 
 
@@ -63,7 +63,7 @@ Visual studio has a panel called Solution Explorer, and you should be able to se
 Program.cs should look something like this:
 
 
-![alt_text](images/image6.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image6.png "image_tooltip")
 
 
 There’s a lot going on here! It’s not too important that you understand everything you see just yet, but we’re going to break this down a bit so you can understand the basic structure of a C# code file.
@@ -85,7 +85,7 @@ First, we have a bunch of lines that start with the word “**using**”:
 (It’s possible your program won’t have all of these lines, but you’ll probably see at least the first line where it says “using System;”
 
 
-![alt_text](images/image7.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image7.png "image_tooltip")
 
 
 For now, the way you can think about “using” statements is that they’re telling the computer that this file might want to make use of the code in the specified “namespaces”. For instance, at line 4, we have “using System.Text” - by adding this line, it will allow us to use code in the System.Text namespace, so we can do things with text. 
@@ -95,7 +95,7 @@ For now, the way you can think about “using” statements is that they’re te
 Next, we have the following at line 7:
 
 
-![alt_text](images/image8.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image8.png "image_tooltip")
 
 
 What this line means is “I am creating a namespace called MyFirstApp”. A “**namespace**” is just a way to group related code together. 
@@ -105,13 +105,13 @@ What this line means is “I am creating a namespace called MyFirstApp”. A “
 You’ll notice that right after that line, there is a curly brace that opens to the right. And if you follow the dashed lines  down the screen, you’ll see a matching curly brace that opens up to the left:
 
 
-![alt_text](images/image9.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image9.png "image_tooltip")
 
 
 These **curly braces** are something you’ll see all over code, and they’re very important! In this case, everything in between the curly braces is part of that “MyFirstApp” namespace. The two curly braces “contain” everything in between them. You can think of them like two hands, holding everything in between:
 
 
-![alt_text](images/image10.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image10.png "image_tooltip")
 
 
 If you ever have a curly brace that opens up to the right, you’ll always have to have a matching one that points to the left. If you don’t do this, your code won’t run!
@@ -122,7 +122,7 @@ If you ever have a curly brace that opens up to the right, you’ll always have 
 To review, we have a namespace called MyFirstApp, and that namespace contains some additional code inside of it. Let’s take a look at what’s inside that namespace:
 
 
-![alt_text](images/image11.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image11.png "image_tooltip")
 
 
 Here we have a line that says:
@@ -141,7 +141,7 @@ We’ll get into “classes” a bit more later! For now, all you need to know i
 Let’s zoom in a little further and see what’s “inside” this class:
 
 
-![alt_text](images/image12.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image12.png "image_tooltip")
 
 
 This is a pretty complicated line with a lot of new words that we don’t need to totally understand yet. 
@@ -149,7 +149,7 @@ This is a pretty complicated line with a lot of new words that we don’t need t
 For now, ignore everything except for a couple key parts of this line: The word “Main”, and then a right-parenthesis and a left-parenthesis (with some additional stuff in between the parenthesis)
 
 
-![alt_text](images/image13.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image13.png "image_tooltip")
 
 
 This is what’s called a “Function” You can always tell you’re dealing with a function when you see the parenthesis.
@@ -160,7 +160,7 @@ _Note: You’ll also see functions like this referred to as “methods”. A “
 
 Currently, this function has nothing in between the curly braces - it’s “empty”: \
 
-![alt_text](images/image14.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image14.png "image_tooltip")
 
 
 So, let’s add some code in here!
@@ -168,7 +168,7 @@ So, let’s add some code in here!
 Add the following two lines of code in between the curly braces:
 
 
-![alt_text](images/image15.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image15.png "image_tooltip")
 
 
 ❗ You’ll need to write these _exactly_ as they’re shown, making sure to get the capitalization right, and putting the semicolon at the end of each line as shown.
@@ -178,7 +178,7 @@ These two lines of code are called “**statements**”, which means they contai
 Now, save your file (Ctrl+S or Cmd+S on a Mac) and hit the Play button at the top of Visual Studio. It will take a minute for the computer to “**compile**” the program. If everything has been entered correctly, you should see the following:
 
 
-![alt_text](images/image16.png "image_tooltip")
+![alt]({{site.baseurl}}/img/image16.png "image_tooltip")
 
 
 If the program doesn’t run, double check that you’ve entered everything exactly as shown above, and that you didn’t delete any of the curly braces or code that you started with.
