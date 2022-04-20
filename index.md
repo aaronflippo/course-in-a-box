@@ -5,7 +5,7 @@ published: true
 
 Welcome to the introduction to coding course! We're going to walk you through the basic concepts of coding, using a C# "Console application".
 
-* **[Setup](/modules/setup/getting-started/)** - Start here!tional) finishing touches
+* **[Setup](/modules/Lesson 1/)** - Start here!)
 
 <br> 
 
