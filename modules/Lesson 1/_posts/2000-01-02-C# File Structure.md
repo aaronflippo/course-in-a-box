@@ -1,6 +1,6 @@
 
 
-#C# File Structure
+# C# File Structure
 
 Now, we have  a project with a single file in it called Program.cs.
 
@@ -46,7 +46,7 @@ First, we have a bunch of lines that start with the word “**using**”:
 
 For now, the way you can think about “using” statements is that they’re telling the computer that this file might want to make use of the code in the specified “namespaces”. For instance, at line 4, we have “using System.Text” - by adding this line, it will allow us to use code in the System.Text namespace, so we can do things with text. 
 
-**Namespaces**
+### Namespaces
 
 Next, we have the following at line 7:
 
@@ -56,7 +56,7 @@ Next, we have the following at line 7:
 
 What this line means is “I am creating a namespace called MyFirstApp”. A “**namespace**” is just a way to group related code together. 
 
-**Curly Braces**
+### Curly Brace
 
 You’ll notice that right after that line, there is a curly brace that opens to the right. And if you follow the dashed lines  down the screen, you’ll see a matching curly brace that opens up to the left:
 
