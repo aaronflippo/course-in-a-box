@@ -5,7 +5,7 @@ published: true
 
 Welcome to the introduction to coding course! We're going to walk you through the basic concepts of coding, using a C# "Console application".
 
-* **[Setup]({{ site.baseurl }}/modules/Lesson 1/)** - Start here!
+* **[Lesson 1]({{ site.baseurl }}/modules/Lesson 1/)** - Start here!
 
 <br> 
 
