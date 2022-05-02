@@ -6,6 +6,7 @@ title: Introduction
 Welcome to introduction to coding with C#!
 Here's an overview of what we'll cover in this course:
 
+
 ### Lesson 1: Hello, Coder!
 * Install Visual Studio
 * Create a "C# Console Application"
