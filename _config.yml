@@ -1,5 +1,7 @@
 # basic configuration
 markdown: kramdown
+
+highlighter: rogue
 permalink: /:categories/:title/
 baseurl:  /course-in-a-box
 # Change this tracking code with your own tracking code
@@ -33,3 +35,4 @@ jumbotron_color: "#547399"
 #jumbotron_image: "img/jumbotron-image.svg"
 # jumbotron_mask: "img/jumbotron-mask.svg"
 jumbotron_icon: "img/MDM-brand-mark.png"
+

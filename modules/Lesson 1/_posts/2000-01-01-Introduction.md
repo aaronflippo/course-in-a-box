@@ -1,17 +1,56 @@
+---
+title: Introduction
+---
 
 # Introduction
 Welcome to introduction to coding with C#!
-Here's what we'll cover in this lesson:
+Here's an overview of what we'll cover in this course:
+
+### Lesson 1: Hello, Coder!
 * Install Visual Studio
 * Create a "C# Console Application"
-* Learn about Namespaces, Classes, and Statements
-* Write our first lines of code
+* Write your first "hello world" code
+* Learn about what code actually is
+* Play with output and input statements
+* Knowledge Check!
+* Coding practice: Let's write a story!
+
+### Lesson 2: Working With Data and Control Flow
+* Working with data: variables
+* Data types: bool, int, float, string
+* Manipulating data with operators
+* Control flow with if/else statements
+* Knowledge Check!
+* Coding Practice: Let's write a Madlib!
+
+### Lesson 3: What's Your Function?
+* What is a function?
+* Understanding curly braces
+* Writing our first functions
+* Passing data into and out of functions 
+* Knowledge Check!
+* Coding Practice: Let's have a conversation!
+
+### Lesson 4: You've Got Class
+* What's a class?
+* Structure of a class
+* Member variables and methods
+* Let's write some classes
+* Knowledge Check!
+* Coding practice: Let's model a kitty!
+
+### Lesson 5: Putting it all together
+* Loops
+* Arrays and lists
+* Knowledge Check!
+* Coding Practice: Kitty Adventure!
+
+<br>
 
 
 ### Install Visual Studio
 
 For this lesson you’ll need to have Visual Studio installed. This course assumes you're using Visual Studio Community Edition. You can get it [here](https://visualstudio.microsoft.com/free-developer-offers/)
-
 
 ### Create a new project
 
@@ -48,6 +87,8 @@ Choose a location for your project that’s convenient - I recommend making a pr
 Then click Next.
 
 
+
+
 ### Getting familiar with your project
 
 Now, we have  a project with a single file in it called Program.cs.
@@ -58,3 +99,14 @@ Visual studio has a panel called Solution Explorer, and you should be able to se
 
 
 ![alt]({{site.baseurl}}/img/1/5_solutionexplorer.png "image_tooltip")
+
+### Important Step: Update project framework setting
+Before we move onto the next section, there's one more thing we need to do.
+Find your solution explorer window, and right-click on the **MyFirstApp** project, and go to "properties"
+
+![alt]({{site.baseurl}}/img/1/projproperties.png "image_tooltip")
+
+Change the Target framework setting to .NET 5.0, and then close the settings
+![alt]({{site.baseurl}}/img/1/frameworksetting.png "image_tooltip")
+
+That's it! We are ready to write some code

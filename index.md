@@ -7,6 +7,7 @@ Welcome to the introduction to coding course! We're going to walk you through th
 
 * **[Lesson 1]({{ site.baseurl }}/modules/lesson 1/Introduction/)** - Start here!
 
+
 <br> 
 
 #### Need some help?
