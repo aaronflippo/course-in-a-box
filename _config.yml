@@ -1,7 +1,9 @@
 # basic configuration
 markdown: kramdown
+kramdown:
+    syntax_highlighter: rogue
+    input: GFM
 
-highlighter: rogue
 permalink: /:categories/:title/
 baseurl:  /course-in-a-box
 # Change this tracking code with your own tracking code
