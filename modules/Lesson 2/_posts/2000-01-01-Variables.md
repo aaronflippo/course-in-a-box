@@ -1,5 +1,4 @@
 ﻿---
-layout: course_page
 title: What are variables?
 ---
 
