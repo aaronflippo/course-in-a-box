@@ -46,7 +46,7 @@ string Greeting = "Hello!";
 string Greeting2 = "Well howdy!";
 string ErrorMessage = "I'm sorry, something went wrong.";
 string FirstName="John";
-string LatName = "Doe";
+string LastName = "Doe";
 string FullName = FirstName + LastName;
 
 {% endraw %}

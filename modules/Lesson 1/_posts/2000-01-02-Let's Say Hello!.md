@@ -35,7 +35,7 @@ Now, hit the "Play" button at the top of Visual Studio:
 If everything is entered correctly, you should see a window pop up with some text in it - and the first line should be "Hello World"
 ![alt]({{site.baseurl}}/img/1/program_output.png "image_tooltip")
 
-
+### Dealing With Errors
 If there's an error, Visual Studio will tell you that it can't run the program.
 Usually, you can look at your code and see little red "squiggly lines" telling you where the problem is.
 For instance, here's what it looks like if I use a lower-case C in the "Console.WriteLine" statement:

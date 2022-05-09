@@ -26,7 +26,8 @@ Here's what it should look like if you run the program now:
 ![alt]({{site.baseurl}}/img/1/tellmeyourname_console.png "image_tooltip")
 
 Of course, the computer doesn't care what we type in - the only instruction we've actually given it is to read a line of text from the user in the console!
-The thing to remember about programming is that the computer will always do *exactly what we tell it to* - nothing more, and nothing less.
+
+One thing to remember about programming is that the computer will always do *exactly what we tell it to* - nothing more, and nothing less.
 
 Later on, we'll learn about how to make the computer "remember" things like your name, using variables.
 
