@@ -52,7 +52,8 @@ Console.WriteLine("You'll spend" + Total + " on coffee every year");
 Also, take a look at that last line: We are adding a string value to an int value, to another string value. The computer knows how to convert number values into strings, so the result is just one longer string.
 
 ### Boolean Operators
-bool values have their own operators, which are used to combine bool values in logical ways.
+
+bool values have their own speical operators, which are used to combine bool values in logical ways.
 The three most common boolean operators are:  
 AND (&&)  
 OR (||)  
@@ -76,9 +77,15 @@ bool UserCanDriveLegally = UserIsOver16 && UserHasDriversLicense;
 // a bool value that's true if EITHER UserHasADog or UserHasACat is true:
 bool UserHasAPet == UserHasADog || UserHasACat
 
+//here's the "not" operator: It's true if the variable it's applied to is *not* true:
+bool IsSleeping = !IsAwake;
+
+
 {% endraw %}
 {% endhighlight %}
 
+### Relational Operators
+Todo: Explain >, <, >=, <=, ==, and !=
 
 ### Operator Order:
 Just like in math, operators are used in a particular order.

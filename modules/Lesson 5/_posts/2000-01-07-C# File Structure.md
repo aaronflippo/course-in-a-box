@@ -1,3 +1,4 @@
+**NOTE**: This is an old lesson that needs updating, and is kept here for reference.
 
 To review, we have a namespace called MyFirstApp, and that namespace contains some additional code inside of it. Let’s take a look at what’s inside that namespace:
 
