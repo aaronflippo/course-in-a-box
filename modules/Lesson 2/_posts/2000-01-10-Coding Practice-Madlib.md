@@ -11,6 +11,10 @@ The original madlibs were presented in book form - we're going to write a comput
 
 This program will be a little longer, and you're going to have to design the story structure, so get ready to get creative!
 
+### Make a new Console Application
+Before we start, it's a good idea at this point to make a brand new C# console application. Just follow the directions from the first lesson, and call your new project "Madlib".
+
+### Overview
 Here's the basic structure of our program: 
 1. We'll ask the user for a word or phrase one at a time, and store their answer in a series of variables, each with its own unique name.
 2. Then we'll print out the story at the end, using all of those stored variables to generate a story.

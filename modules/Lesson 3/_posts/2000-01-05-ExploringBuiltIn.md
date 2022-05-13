@@ -1,15 +1,1 @@
----
-title: "Exploring Built-In Functions"
----
-
-
-# Exploring Built-In Functions
-The C# language actually has a lot of built-in functionality in the form of classes and functions.
-We'll talk more about Classes in the next lesson.
-
-But let's explore some of the built-in functions that are available to us!
-
-#reading text out of files
-
-#modifying strings
-
+---title: "Exploring Built-In Functions"---# Exploring Built-In FunctionsThe C# language actually has a lot of built-in functionality in the form of classes and functions.We'll talk more about Classes in the next lesson.But let's explore some of the built-in functions that are available to us!### working with stringsThere are lots of interesting things you can do with strings, such as analyzing user input text.Go find the [C# documenation for strings](https://docs.microsoft.com/en-us/dotnet/api/system.string), and learn about the following string functions:[Replace](https://docs.microsoft.com/en-us/dotnet/api/system.string.replace?view=net-6.0)  [Contains](https://docs.microsoft.com/en-us/dotnet/api/system.string.contains?view=net-6.0)For instance, you could write a program that tells you whether an input string contains the word "banana";{% highlight csharp %}string userInput = Console.ReadLine();bool containsYes = userInput.Contains("banana");Console.WriteLine(" Contains the word 'banana': " + containsYes);{% endhighlight %}### Open a webpage:Here's a bit of code that will open a browser window to a webpage the user specifies:  {% highlight csharp %}{% raw %}Console.WriteLine("What webpage would you like to visit? Be sure to put http:// at the beginning!");string webPage = Console.ReadLine();System.Diagnostics.Process.Start("explorer", webPage);{% endraw %}{% endhighlight %}### Open file contents:Here's a bit of code that will load the contents of a text file from a particular location on the hard drive, and print the contents to the console:{% highlight csharp %}{% raw %}	//read all the contents of a file 	//NOTE: (You need to go to the c:\Users\Public\ folder in Windows Explorder, make a new folder called "Test", and then make a new text file there called test.txt)	//alternatively, you could make this program ask the user for a path	string contents = System.IO.File.ReadAllText("C:\\Users\\Public\\Test\\text.txt");	Console.WriteLine("File contents: " + contents);{% endraw %}{% endhighlight %}You can use [File.ReadAllLines](https://docs.microsoft.com/en-us/dotnet/api/system.io.file.readalllines?view=net-6.0) to read all of the text out of a file.  ### MathC# comes with a whole library of math functions called MathF. For instance, here's a function to compute the area of a circle given its radius, using the MathF.PI variable:{% highlight csharp %}float ComputeCircleArea(float radius){	return MathF.PI * (radius * radius);}{% endhighlight %}    ### What do you want to do with your code?Not sure how to do a particular thing in code? Chances are, there are samples out on the internet! One of the most important skills you'll develop as a programmer is figuring out how to find existing solutions for problems.  Google is your friend!
