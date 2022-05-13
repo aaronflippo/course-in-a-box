@@ -49,11 +49,11 @@ Then, inside the class (between the curly braces) we have a variable, and a func
 
 {% endhighlight %}
 
-The only thing that's new here is that this variable and function both have the word "public" in front of them. For now just keep in mind that if you want to access those members from any code that's 'outside of the class itself, those members need to be "public".  
+The only thing that's new here is that this variable and function both have the word "public" in front of them. For now just keep in mind that if you want to access those members from any code that's outside of the class itself, those members need to be "public".  
 And that's it! Pretty simple, right?  
 
 ### Summon The Cat!
-So far, we've written a Cat **class**. However, we're doing **object** oriented programming now, right? To actually make a cat **Object**, we need to make an **instance** of this class.  
+So far, we've written a Cat **class**. However, we're doing **Object** oriented programming now, right? To actually make a cat **Object**, we need to make an **instance** of this class.  
 Let's expand our program by adding the following **before** our Cat class in Program.cs:
 
 
@@ -79,6 +79,6 @@ class Cat
 {% endhighlight %}
 
 Did you catch all that?
-We declared a **variable** here called aCat. Instead of it being an int, a float, a string or a bool, instead it's type is **cat**.
+We declared a **variable** here called aCat. Instead of it being an int, a float, a string or a bool, instead it's type is **Cat**.
 
 Then we called the Meow() function on our Cat instance, usind "dot syntax", just like we've been doing with Console.Log()
