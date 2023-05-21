@@ -88,4 +88,12 @@ while(true)
 
 }
 
+## Your Turn!
+Use the code above as a startint point, and make sure you understand what the code is doing.
+
+Then, try to extend it in the following ways:
+1. Add a few additional commands for the cat. Example: Hiss, Grow, etc.
+2. Add a command to let the user name the cat. This will require an additional prompt using Console.ReadLine(), and some code that sets the cat's name variable using dot syntax
+3. Add some additional variables to the simulation to make it more interesting. For instance - you could give the cat an age, and add a command to grow the cat older. How would the cat's behavior change as it gets older?
+
 {% endhighlight %}
