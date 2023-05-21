@@ -51,41 +51,24 @@ Console.WriteLine("You'll spend" + Total + " on coffee every year");
 
 Also, take a look at that last line: We are adding a string value to an int value, to another string value. The computer knows how to convert number values into strings, so the result is just one longer string.
 
-### Boolean Operators
 
-bool values have their own speical operators, which are used to combine bool values in logical ways.
-The three most common boolean operators are:  
-AND (&&)  
-OR (||)  
-NOT (!)
+### Relational Operators
+You can also use "relational" operators such as: > (greater than), < (less than), >= (greater than or equal), <= (less than or equal), == (equals), and != (not equals).
+When you compare two numbers with a relational operators, the result is a bool value.
 
-It can be a little confusing to explain these, so here are some examples of the && and || operators in action:
-
+Examples:
 {% highlight csharp  %}
 {% raw %}
+using System;
 
-//true if user is over 16 years of age
-bool UserIsOver16;
-//true if user has a driver's license
-bool UserHasDriversLicense;
 
-// a new bool value that's true only 
-// if user is over 16 AND has a driver's license 
-//(and false if either of these values is false)
-bool UserCanDriveLegally = UserIsOver16 && UserHasDriversLicense;
-
-// a bool value that's true if EITHER UserHasADog or UserHasACat is true:
-bool UserHasAPet == UserHasADog || UserHasACat
-
-//here's the "not" operator: It's true if the variable it's applied to is *not* true:
-bool IsSleeping = !IsAwake;
-
+bool oldEnoughToDrive = age >= 16;
+...
+string answer = Console.Readline();
+bool answerIsYes = answer=="yes";
 
 {% endraw %}
 {% endhighlight %}
-
-### Relational Operators
-Todo: Explain >, <, >=, <=, ==, and !=
 
 ### Operator Order:
 Just like in math, operators are used in a particular order.
@@ -101,5 +84,11 @@ float A = B*(C+D);
 float A = (B*C)+D;
 
 {% endhighlight %}
+
+
+### Boolean Operators
+
+bool values have their own speical operators, which are used to combine bool values in logical ways.
+We will cover boolean operators in a later lesson when we talk about Control Flow!
 
 

@@ -1,5 +1,5 @@
 ---
-title: Let's Make a Madlib!
+title: "Coding Practice:  Let's Make a Madlib!"
 ---
 
 # Let's Make A Madlib!

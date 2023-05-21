@@ -33,7 +33,7 @@ But I'd like you to take a look at the overall pattern in this code.
 There are 3 sections here, and they're all *very* similar.
 The only thing that's different for each of these 3 sections is the text that's written to the console, and the variable that stores the user input.
 
-### Declaring our function
+### Writing our function
 So let's write a *function* that does all of the common stuff above, and then just _call_ it 3 times and let it do the 'dirty work' for us.
 
 Go ahead and write this out, exactly as you see it below. Write it above all of the other code in your file (after the using System; line)
@@ -62,8 +62,8 @@ Now on the line next to the function declaration, we have a curly brace facing t
 Those curly braces tell the computer where the code for the function will start and end.
 So we have delcared a function called GetUserInput. It takes a single string parameter called 'prompt', and it has a return type of 'string', which means that the function needs to return a string when it's done.
 
-### Giving our function... Well, Functionality!
-So now that we've declared our function, 'let's put some statements inside it, between the two curly braces:
+### Giving our function... Functionality!
+So now that we've written our function, 'let's put some statements inside it, between the two curly braces:
 
 {% highlight csharp %}
 {% raw %}
@@ -110,30 +110,4 @@ string petName = GetUserInput("What's your pet name?");
 
 This is kind of cool, isn't it? We can now do in one line what used to take 2 lines. The more complex our code gets, the more useful it becomes to put code into functions.
 
-### Expanding Our Function
-
-Now that we have a single functiion whose purpose is to prompt the user for input, let's improve it a bit!
-
-
-string GetUserInput(string prompt)
-{
-	Console.ForegroundColor = ConsoleColor.Red;
-	Console.Write(prompt);
-	Console.Beep();
-	Console.ForegroundColor = ConsoleColor.Green;
-	string userInput = Console.ReadLine();
-	Console.ForegroundColor = ConsoleColor.White;
-	return userInput;
-}
-
-I've made this function change the foreground color to red, just before it prints the prompt to the console.
-Then it beeps, and changes the color to green before reading the user input.
-Finally, it changes the color back to white before returning.
-
-It gives the program a little bit of personality! 
-
-Here's what that looks like if you run the program:
-![alt]({{site.baseurl}}/img/3/functions2.png "image_tooltip")
-
-Neat, right?
 

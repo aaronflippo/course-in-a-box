@@ -1,5 +1,5 @@
 ﻿---
-title: Our First Object
+title: Our First Class
 --- 
 ### Our First Object
 
