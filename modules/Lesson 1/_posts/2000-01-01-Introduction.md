@@ -59,6 +59,7 @@ Visual studio has a panel called Solution Explorer, and you should be able to se
 ![alt]({{site.baseurl}}/img/1/5_solutionexplorer.png "image_tooltip")
 
 ### Important Step: Update project framework setting
+(These instructions are only necessary if you're using Visual Studio 2019 or earlier. Visual Studio 2022 should "just work" out of the box)
 Before we move onto the next section, there's one more thing we need to do.
 Find your solution explorer window, and right-click on the **MyFirstApp** project, and go to "properties"
 
