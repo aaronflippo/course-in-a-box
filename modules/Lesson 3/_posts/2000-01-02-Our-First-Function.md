@@ -33,7 +33,7 @@ But I'd like you to take a look at the overall pattern in this code.
 There are 3 sections here, and they're all *very* similar.
 The only thing that's different for each of these 3 sections is the text that's written to the console, and the variable that stores the user input.
 
-### Writing our function
+### Try It Now: Writing our function
 So let's write a *function* that does all of the common stuff above, and then just _call_ it 3 times and let it do the 'dirty work' for us.
 
 Go ahead and write this out, exactly as you see it below. Write it above all of the other code in your file (after the using System; line)

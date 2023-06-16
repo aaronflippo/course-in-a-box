@@ -29,7 +29,7 @@ example:
 int age = 10;
 {% endhighlight %}
 
-### Expanding our Hello World Program
+### Try It Now: Expanding our Hello World Program
 Let's get a little more practice with using variables in a real application.
 
 This program is a little longer! But if you read it carefully, you should be able to understand it.

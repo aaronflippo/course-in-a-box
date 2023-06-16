@@ -28,7 +28,8 @@ float TempInDegrees = 92.6f;
 There are also more data types for storing _large_ numbers: **long** and **double**, which are for larger integers and larger decimal numbers.
 long and double use more computer memory, but can store bigger numbers. But for now, int and float should meet our needs.
 
-**Try it now:**  Go ahead and declare a few of your own int and float variables in your Hello World code! Don't worry that they don't do anything yet, just get comfortable declaring variables and assigning values to them.
+### Try it now:
+Go ahead and declare a few of your own int and float variables in your Hello World code! Don't worry that they don't do anything yet, just get comfortable declaring variables and assigning values to them.
 
 ### Strings
 We used a string in the previous module, so you already have a sense of what they do, but just to recap: A string holds text, or sequences of characters.

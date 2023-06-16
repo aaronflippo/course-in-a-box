@@ -10,9 +10,12 @@ A class is like a "template" or a "blueprint" for an object. It describes to the
 
 Without further ado, let's go ahead and write a simple Cat class. 
 
+### Try It Now: Let's Make A Cat!
+
 First, make a new C# Console application called **Cat Adventure**
 Then, clear out the contents of that first program file, and add the following to Program.cs:  
 
+(Note: This is not a complete program, so it won't yet compile properly until we add more below)
 
 {% highlight csharp  %}
 using System;
@@ -26,6 +29,7 @@ class Cat
     }
 }
 {% endhighlight %}
+
 
 Let's break this down. First, we have a class delcaration, followed by open and close curly braces:
 

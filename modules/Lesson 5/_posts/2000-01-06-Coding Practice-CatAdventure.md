@@ -70,7 +70,7 @@ Cat myCat = new Cat();
 
 while(true)
 {
-	Console.WriteLine("Cat status: "+cat.PrintInfo);
+	Console.WriteLine("Cat status: "+myCat.PrintInfo);
 	Console.WriteLine("What would you like to do next?: ");
 	string command = console.ReadLine();
 	if(command == "feed")
